@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SecondaryTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="android:background">@color/colorPrimaryDark</item>-->
+        <item name="colorAccent">@color/colorTextPrimary</item>
+        <item name="colorButtonNormal">@color/colorTextPrimary</item>
+        <!--<item name="colorButtonNormal">@color/colorAccent</item>-->
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorWarning</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="EditTextTheme" parent="Base.V7.Widget.AppCompat.EditText">
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+</resources>
